@@ -1,14 +1,15 @@
 @import url('https://fonts.cdnfonts.com/css/amazon-ember');
 * {
     margin: 0;
-    font-family: 'Amazon Ember', sans-serif;
+    font-family: 'Amazon Ember', arial,sans-serif;
     border: border-box;
-}
 
+}
 .container{
      /* background: rgb(1,38,57);
     background: linear-gradient(90deg, rgba(1,38,57,1) 0%, rgba(13,65,86,1) 0%, rgba(4,74,98,1) 0%, rgba(1,33,56,1) 0%); */
     background-color: #e3e6e6; 
+    
 }
 .navbar {
     height: 60px;
@@ -284,7 +285,7 @@
     width: 23%;
     height: 440px;
     background-color: #ffffff;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     margin-bottom: 30px;
     transition: ease;
     transform: scale(1.0);
@@ -349,4 +350,77 @@
     color: brown;
     text-decoration: underline;
     cursor: pointer;
+}
+.Product-card{
+   
+    height: 330px;
+    background-color: #ffffff;
+    top: -200px;
+    margin-bottom: 8px;
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.products{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.card-heading{
+    height: 35px;
+    width: 100%;
+}
+.card {
+    width: 18%;
+    height: 250px;
+    background-color: #ffffff;
+    border: 1px ;
+    
+    padding: 8px;
+    
+}
+.card-pic{
+    background-color: #f0f0f5;
+    padding: 8px;
+    
+}
+
+.card-pic img{
+    width: 130px;
+    height: 183px;
+    /* margin: auto; */
+    mix-blend-mode: multiply;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+.card-box{
+    display: flex;
+    font-size: 12px;
+    margin-top: 8px;
+    cursor: pointer;
+    
+}
+#box-text1{
+    width: 90px;
+    height: 20px;
+    background-color:#cc0c39;
+    color: white;
+    text-align: center;
+    margin-right: 15px;   
+    padding-top: 5px;
+}
+#box-text2{
+    color: #cc0c39;
+    padding-top: 5px;
+}
+.card-text{
+    height: 20px;
+    width: fit-content;
+    font-size: 13px;
+    margin-top:4px;
+}
+.card-text p{
+    color: #0f1111;
 }
