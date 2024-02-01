@@ -17,6 +17,7 @@
     display: flex;
     color: white;
     align-items: center;
+    cursor: pointer;
 }
 
 .nav-logo {

