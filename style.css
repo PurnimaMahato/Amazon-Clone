@@ -9,7 +9,7 @@
      /* background: rgb(1,38,57);
     background: linear-gradient(90deg, rgba(1,38,57,1) 0%, rgba(13,65,86,1) 0%, rgba(4,74,98,1) 0%, rgba(1,33,56,1) 0%); */
     background-color: #e3e6e6; 
-    
+    background-image: url();
 }
 .navbar {
     height: 60px;
@@ -275,9 +275,13 @@
 .shop {
     display: flex;
     justify-content: space-evenly;
+    /* position: relative; */
+    /* top: -200px; */
+    
+}
+.main{
     position: relative;
     top: -200px;
-    
 }
 
 .box {
@@ -355,9 +359,9 @@
    
     height: 330px;
     background-color: #ffffff;
-    top: -200px;
+    /* top: -200px; */
     margin-bottom: 8px;
-    position: relative;
+    /* position: relative; */
     margin-left: 20px;
     margin-right: 20px;
     
@@ -424,3 +428,41 @@
 .card-text p{
     color: #0f1111;
 }
+/* Footer */
+.footer-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #37475a;
+    color: #fff;
+    font-size: 0.875rem;
+    font-weight: 600;
+    height: 60px;
+  }
+  .footer-items {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0 auto;
+    background: #232f3e;
+    height: 100%;
+  }
+  .footer-items h3 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    margin: 20px 0 10px 0;
+  }
+  .footer-items ul {
+    list-style: none;
+    margin-bottom: 20px;
+  }
+  .footer-items li a {
+    color: #ddd;
+    font-size: 0.875rem;
+    text-decoration: none;
+  }
+  .footer-items li a:hover {
+    text-decoration: underline;
+  }
+  
