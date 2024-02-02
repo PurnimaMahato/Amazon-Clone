@@ -12,465 +12,676 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    
   </head>
 
   <body>
-   
     <div class="container">
-    <header>
-      <div class="navbar">
-        <div class="nav-logo border">
-          <div class="logo">
-            <img src="images/amazonLogo.png" />
+      <header>
+        <div class="navbar">
+          <div class="nav-logo border">
+            <div class="logo">
+              <img src="images/amazonLogo.png" />
+            </div>
           </div>
-        </div>
-        <div class="nav-add border">
-          <p class="add-text1">Hello</p>
-          <div class="add-icon">
-            <i class="fa-solid fa-location-dot"></i>
-            <p class="add-text2">Select your address</p>
+          <div class="nav-add border">
+            <p class="add-text1">Hello</p>
+            <div class="add-icon">
+              <i class="fa-solid fa-location-dot"></i>
+              <p class="add-text2">Select your address</p>
+            </div>
           </div>
-        </div>
-        <div class="nav-search">
-          <select class="search-select">
-            <option>All</option>
-          </select>
-          <input placeholder="Search Amazon" class="search-input" />
-          <div class="search-icon">
-            <i class="fa-solid fa-magnifying-glass"></i>
+          <div class="nav-search">
+            <select class="search-select">
+              <option>All</option>
+            </select>
+            <input placeholder="Search Amazon" class="search-input" />
+            <div class="search-icon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
           </div>
-        </div>
-        <div class="nav-lang border">
-          <div class="lan-icon">
-            <i class="fa-solid fa-globe"></i>
-          </div>
-          <p class="lang">EN</p>
-          <!-- <select class="select-lang">
+          <div class="nav-lang border">
+            <div class="lan-icon">
+              <i class="fa-solid fa-globe"></i>
+            </div>
+            <p class="lang">EN</p>
+            <!-- <select class="select-lang">
                     <option>
                     </option>
                     
                 </select> -->
-          <div class="select-icon">
-            <i class="fa-solid fa-caret-down fa-2xs"></i>
-          </div>
-        </div>
-        <div class="nav-acc border" onclick="goto()">
-          <p class="acc-text1">Hello-sign in</p>
-          <div class="acc">
-            <p class="acc-text2">Account & Lists</p>
             <div class="select-icon">
               <i class="fa-solid fa-caret-down fa-2xs"></i>
             </div>
           </div>
-        </div>
-        <div class="nav-return border">
-          <p class="ret-text1">Returns</p>
-          <p class="ret-text2">& Orders</p>
-        </div>
-        <div class="nav-cart border">
-          <div class="cart-icon">
-            <i class="fa-solid fa-cart-shopping fa-2xl"></i>
+          <div class="nav-acc border" onclick="goto()">
+            <p class="acc-text1">Hello-sign in</p>
+            <div class="acc">
+              <p class="acc-text2">Account & Lists</p>
+              <div class="select-icon">
+                <i class="fa-solid fa-caret-down fa-2xs"></i>
+              </div>
+            </div>
           </div>
-          <p class="cart-text">Cart</p>
+          <div class="nav-return border">
+            <p class="ret-text1">Returns</p>
+            <p class="ret-text2">& Orders</p>
+          </div>
+          <div class="nav-cart border">
+            <div class="cart-icon">
+              <i class="fa-solid fa-cart-shopping fa-2xl"></i>
+            </div>
+            <p class="cart-text">Cart</p>
+          </div>
+        </div>
+        <div class="panel">
+          <div class="panel-bar">
+            <div class="bar-icon">
+              <i class="fa-solid fa-bars" style="color: #ffffff"></i>
+            </div>
+            <p>All</p>
+          </div>
+          <div class="panel-ops">
+            <p>Amazon miniTV</p>
+            <p>Best Seller</p>
+            <p>Today's Deals</p>
+            <p>New Releases</p>
+            <p>Customer Service</p>
+            <p>Prime</p>
+            <p>Electronics</p>
+            <p>Home & Kitchen</p>
+            <p>Fashion</p>
+          </div>
+          <div class="panel-shop">
+            <p>New Launches from Mobiles , Electronics & more | Shop</p>
+          </div>
+        </div>
+      </header>
+      <div class="hero-section">
+        <div class="carousel-container">
+          <div class="carousel-slide">
+            <img src="images/slide.jpg" alt="Slide 1" />
+          </div>
+          <div class="carousel-slide">
+            <img src="images/slide2_.jpg" alt="Slide 2" />
+          </div>
+          <div class="carousel-slide">
+            <img src="images/slide3.jpg" alt="Slide 3" />
+          </div>
+          <!-- Add more slides as needed -->
         </div>
       </div>
-      <div class="panel">
-        <div class="panel-bar">
-          <div class="bar-icon">
-            <i class="fa-solid fa-bars" style="color: #ffffff"></i>
-          </div>
-          <p>All</p>
-        </div>
-        <div class="panel-ops">
-          <p>Amazon miniTV</p>
-          <p>Best Seller</p>
-          <p>Today's Deals</p>
-          <p>New Releases</p>
-          <p>Customer Service</p>
-          <p>Prime</p>
-          <p>Electronics</p>
-          <p>Home & Kitchen</p>
-          <p>Fashion</p>
-        </div>
-        <div class="panel-shop">
-          <p>New Launches from Mobiles , Electronics & more | Shop</p>
-        </div>
-      </div>
-    </header>
-    <div class="hero-section">
-      <div class="carousel-container">
-        <div class="carousel-slide">
-          <img src="images/slide.jpg" alt="Slide 1">
-        </div>
-        <div class="carousel-slide">
-          <img src="images/slide2_.jpg" alt="Slide 2">
-        </div>
-        <div class="carousel-slide">
-          <img src="images/slide3.jpg" alt="Slide 3">
-        </div>
-        <!-- Add more slides as needed -->
-      </div>
-      
-    </div>
-    <main class="main">
-    <div class="shop-section-1 shop">
-      <div class="box1 box" id="box-1">
-        <div class="box-heading">
-          <h1>Revamp your home in style</h1>
-        </div>
-        <div class="box-pics">
-          <div class="box-pics row">
-            <div class="pic">
-              <img src="images/box1-pic1.jpg" alt="" />
-              <p>Cushion , covers , bedsheets & more</p>
+      <main class="main">
+        <div class="shop-section-1 shop">
+          <div class="box1 box" id="box-1">
+            <div class="box-heading">
+              <h1>Revamp your home in style</h1>
             </div>
-            <div class="pic">
-              <img src="images/box1-pic2.jpg" alt="" />
-              <p>Figurines, vases and more</p>
+            <div class="box-pics">
+              <div class="box-pics row">
+                <div class="pic">
+                  <img src="images/box1-pic1.jpg" alt="" />
+                  <p>Cushion , covers , bedsheets & more</p>
+                </div>
+                <div class="pic">
+                  <img src="images/box1-pic2.jpg" alt="" />
+                  <p>Figurines, vases and more</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="pic">
+                  <img src="images/box1-pic3.jpg" alt="" />
+                  <p>Home storage</p>
+                </div>
+                <div class="pic">
+                  <img src="images/box1-pic4.jpg" alt="" />
+                  <p>Lightning solutions</p>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="pic">
-              <img src="images/box1-pic3.jpg" alt="" />
-              <p>Home storage</p>
-            </div>
-            <div class="pic">
-              <img src="images/box1-pic4.jpg" alt="" />
-              <p>Lightning solutions</p>
-            </div>
-          </div>
-        </div>
             <div class="box-link">
-                <p>Explore all</p>
-            </div>
-        </div>
-    
-      <div class="box2 box" id="box-1">
-        <div class="box-heading">
-            <h1>Up to 60% off | Styles for men</h1>
-          </div>
-          <div class="box-pics">
-            <div class="box-pics row">
-              <div class="pic">
-                <img src="images/box3-pic1.jpg" alt="" />
-                <p>Clothing</p>
-              </div>
-              <div class="pic">
-                <img src="images/box3-pic2.jpg" alt="" />
-                <p>Footwear</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="pic">
-                <img src="images/box3-pic3.jpg" alt="" />
-                <p>Wathes</p>
-              </div>
-              <div class="pic">
-                <img src="images/box3-pic4.jpg" alt="" />
-                <p>Bags & wallets</p>
-              </div>
+              <p>Explore all</p>
             </div>
           </div>
-              <div class="box-link">
-                  <p>End of season sale</p>
+
+          <div class="box2 box" id="box-1">
+            <div class="box-heading">
+              <h1>Up to 60% off | Styles for men</h1>
+            </div>
+            <div class="box-pics">
+              <div class="box-pics row">
+                <div class="pic">
+                  <img src="images/box3-pic1.jpg" alt="" />
+                  <p>Clothing</p>
+                </div>
+                <div class="pic">
+                  <img src="images/box3-pic2.jpg" alt="" />
+                  <p>Footwear</p>
+                </div>
               </div>
-      </div>
-      <div class="box3 box" id="box-1">
-        <div class="box-heading">
-            <h1>Up to 60% off | Headphones</h1>
-          </div>
-          <div class="box-pics">
-            <div class="box-pics row">
-              <div class="pic">
-                <img src="images/box2-pic1.jpg" alt="" />
-                <p>boult</p>
-              </div>
-              <div class="pic">
-                <img src="images/box2-pic2.jpg" alt="" />
-                <p>boAt</p>
+              <div class="row">
+                <div class="pic">
+                  <img src="images/box3-pic3.jpg" alt="" />
+                  <p>Wathes</p>
+                </div>
+                <div class="pic">
+                  <img src="images/box3-pic4.jpg" alt="" />
+                  <p>Bags & wallets</p>
+                </div>
               </div>
             </div>
-            <div class="row">
-              <div class="pic">
-                <img src="images/box2-pic3.jpg" alt="" />
-                <p>Noise</p>
-              </div>
-              <div class="pic">
-                <img src="images/box2-pic4.jpg" alt="" />
-                <p>Zebronics</p>
-              </div>
-            </div>
-          </div>
-              <div class="box-link">
-                  <p>See all offers</p>
-              </div>
-      </div>
-      <div class="box4 box" id="box-1">
-        <div class="box-heading">
-            <h1>Starting Rs.199 | Branded products</h1>
-          </div>
-          <div class="box-pics">
-            <div class="box-pics row">
-              <div class="pic">
-                <img src="images/box4-pic1.jpg" alt="" />
-                <p>Water bottles</p>
-              </div>
-              <div class="pic">
-                <img src="images/box4-pic2.jpg" alt="" />
-                <p>Storage containers</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="pic">
-                <img src="images/box4-pic3.jpg" alt="" />
-                <p>Cookware</p>
-              </div>
-              <div class="pic">
-                <img src="images/box1-pic4.jpg" alt="" />
-                <p>Rack & holders</p>
-              </div>
-            </div>
-          </div>
-              <div class="box-link">
-                  <p>See more</p>
-              </div>
-      </div>
-    </div>
-    <!-- shop section 2 -->
-    <div class="shop-section-2 shop">
-      <div class="box1 box">
-        <div class="box-heading">
-          <h1>Birthday store | Exiting gifts</h1>
-        </div>
-        <div class="box-pics">
-          <div class="box-pics row">
-            <div class="pic">
-              <img src="images/box5-pic1.jpg" alt="" />
-              <p>Gifts for men</p>
-            </div>
-            <div class="pic">
-              <img src="images/box5-pic2.jpg" alt="" />
-              <p>Gifts for women</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="pic">
-              <img src="images/box5-pic3.jpg" alt="" />
-              <p>Gifts for boys</p>
-            </div>
-            <div class="pic">
-              <img src="images/box5-pic4.jpg" alt="" />
-              <p>Gifts for girls</p>
-            </div>
-          </div>
-        </div>
             <div class="box-link">
-                <p>See more</p>
+              <p>End of season sale</p>
             </div>
+          </div>
+          <div class="box3 box" id="box-1">
+            <div class="box-heading">
+              <h1>Up to 60% off | Headphones</h1>
+            </div>
+            <div class="box-pics">
+              <div class="box-pics row">
+                <div class="pic">
+                  <img src="images/box2-pic1.jpg" alt="" />
+                  <p>boult</p>
+                </div>
+                <div class="pic">
+                  <img src="images/box2-pic2.jpg" alt="" />
+                  <p>boAt</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="pic">
+                  <img src="images/box2-pic3.jpg" alt="" />
+                  <p>Noise</p>
+                </div>
+                <div class="pic">
+                  <img src="images/box2-pic4.jpg" alt="" />
+                  <p>Zebronics</p>
+                </div>
+              </div>
+            </div>
+            <div class="box-link">
+              <p>See all offers</p>
+            </div>
+          </div>
+          <div class="box4 box" id="box-1">
+            <div class="box-heading">
+              <h1>Starting Rs.199 | Branded products</h1>
+            </div>
+            <div class="box-pics">
+              <div class="box-pics row">
+                <div class="pic">
+                  <img src="images/box4-pic1.jpg" alt="" />
+                  <p>Water bottles</p>
+                </div>
+                <div class="pic">
+                  <img src="images/box4-pic2.jpg" alt="" />
+                  <p>Storage containers</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="pic">
+                  <img src="images/box4-pic3.jpg" alt="" />
+                  <p>Cookware</p>
+                </div>
+                <div class="pic">
+                  <img src="images/box1-pic4.jpg" alt="" />
+                  <p>Rack & holders</p>
+                </div>
+              </div>
+            </div>
+            <div class="box-link">
+              <p>See more</p>
+            </div>
+          </div>
         </div>
-    
-      <div class="box2 box">
-        <div class="box-heading">
-            <h1>Bestsellers | Footwear & more</h1>
-          </div>
-          <div class="box-pics">
-            <div class="box-pics row">
-              <div class="pic">
-                <img src="images/box6-pic1.jpg" alt="" />
-                <p>Sports shoes</p>
+        <!-- shop section 2 -->
+        <div class="shop-section-2 shop">
+          <div class="box1 box">
+            <div class="box-heading">
+              <h1>Birthday store | Exiting gifts</h1>
+            </div>
+            <div class="box-pics">
+              <div class="box-pics row">
+                <div class="pic">
+                  <img src="images/box5-pic1.jpg" alt="" />
+                  <p>Gifts for men</p>
+                </div>
+                <div class="pic">
+                  <img src="images/box5-pic2.jpg" alt="" />
+                  <p>Gifts for women</p>
+                </div>
               </div>
-              <div class="pic">
-                <img src="images/box6-pic2.jpg" alt="" />
-                <p>Jewellary & accessories</p>
+              <div class="row">
+                <div class="pic">
+                  <img src="images/box5-pic3.jpg" alt="" />
+                  <p>Gifts for boys</p>
+                </div>
+                <div class="pic">
+                  <img src="images/box5-pic4.jpg" alt="" />
+                  <p>Gifts for girls</p>
+                </div>
               </div>
             </div>
-            <div class="row">
-              <div class="pic">
-                <img src="images/box6-pic3.jpg" alt="" />
-                <p>Watch & smart Wathes</p>
+            <div class="box-link">
+              <p>See more</p>
+            </div>
+          </div>
+
+          <div class="box2 box">
+            <div class="box-heading">
+              <h1>Bestsellers | Footwear & more</h1>
+            </div>
+            <div class="box-pics">
+              <div class="box-pics row">
+                <div class="pic">
+                  <img src="images/box6-pic1.jpg" alt="" />
+                  <p>Sports shoes</p>
+                </div>
+                <div class="pic">
+                  <img src="images/box6-pic2.jpg" alt="" />
+                  <p>Jewellary & accessories</p>
+                </div>
               </div>
-              <div class="pic">
-                <img src="images/box6-pic4.jpg" alt="" />
-                <p>Bag , wallet & luggage</p>
+              <div class="row">
+                <div class="pic">
+                  <img src="images/box6-pic3.jpg" alt="" />
+                  <p>Watch & smart Wathes</p>
+                </div>
+                <div class="pic">
+                  <img src="images/box6-pic4.jpg" alt="" />
+                  <p>Bag , wallet & luggage</p>
+                </div>
+              </div>
+            </div>
+            <div class="box-link">
+              <p>Explore all</p>
+            </div>
+          </div>
+          <div class="box3 box">
+            <div class="box-heading">
+              <h1>Essentials for Expecting Mothers</h1>
+            </div>
+            <div class="box-pics">
+              <div class="box-pics row">
+                <div class="pic">
+                  <img src="images/box7-pic1.jpg" alt="" />
+                  <p>Pregnancy supplements</p>
+                </div>
+                <div class="pic">
+                  <img src="images/box7-pic2.jpg" alt="" />
+                  <p>maternity Sleep & Loungewear</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="pic">
+                  <img src="images/box7-pic3.jpg" alt="" />
+                  <p>Maternity pillows</p>
+                </div>
+                <div class="pic">
+                  <img src="images/box7-pic4.jpg" alt="" />
+                  <p>Maternity skin care</p>
+                </div>
+              </div>
+            </div>
+            <div class="box-link">
+              <p>See more</p>
+            </div>
+          </div>
+          <div class="box4 box">
+            <div class="box-heading">
+              <h1>Pocket-friendly fashion</h1>
+            </div>
+            <div class="box-pics">
+              <div class="box-pics row">
+                <div class="pic">
+                  <img src="images/box8-pic1.jpg" alt="" />
+                  <p>Clothing</p>
+                </div>
+                <div class="pic">
+                  <img src="images/box8-pic2.jpg" alt="" />
+                  <p>Backpacks</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="pic">
+                  <img src="images/box8-pic3.jpg" alt="" />
+                  <p>Footwear</p>
+                </div>
+                <div class="pic">
+                  <img src="images/box8-pic4.jpg" alt="" />
+                  <p>Veiw all</p>
+                </div>
+              </div>
+            </div>
+            <div class="box-link">
+              <p>See all offers</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- product card section -->
+        <div class="Product-card">
+          <div class="card-heading">
+            <!-- <h1>Todays Deal</h1> -->
+          </div>
+          <div class="products">
+            <div class="card">
+              <div class="card-pic">
+                <img
+                  src="https://m.media-amazon.com/images/I/31gAA759UCL._AC_SY200_.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="card-box">
+                <p id="box-text1">Up to 73% off</p>
+                <p id="box-text2">Deal of the Day</p>
+              </div>
+              <div class="card-text">
+                <p>Hard Water Filters and Bath accessori....</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-pic">
+                <img
+                  src="https://m.media-amazon.com/images/I/41TssgTTkwL._AC_SY200_.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="card-box">
+                <p id="box-text1">Up to 73% off</p>
+                <p id="box-text2">Deal of the Day</p>
+              </div>
+              <div class="card-text">
+                <p>Hard Water Filters and Bath accessori....</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-pic">
+                <img
+                  src="https://m.media-amazon.com/images/I/51Q8ZoVG3oL._AC_SY200_.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="card-box">
+                <p id="box-text1">Up to 73% off</p>
+                <p id="box-text2">Deal of the Day</p>
+              </div>
+              <div class="card-text">
+                <p>Hard Water Filters and Bath accessori....</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-pic">
+                <img
+                  src="https://m.media-amazon.com/images/I/81AHUh3eY4L._SY695__AC_SY200_.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="card-box">
+                <p id="box-text1">Up to 73% off</p>
+                <p id="box-text2">Deal of the Day</p>
+              </div>
+              <div class="card-text">
+                <p>Hard Water Filters and Bath accessori....</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-pic">
+                <img
+                  src="https://m.media-amazon.com/images/I/31gAA759UCL._AC_SY200_.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="card-box">
+                <p id="box-text1">Up to 73% off</p>
+                <p id="box-text2">Deal of the Day</p>
+              </div>
+              <div class="card-text">
+                <p>Hard Water Filters and Bath accessori....</p>
               </div>
             </div>
           </div>
-              <div class="box-link">
-                  <p>Explore all</p>
+        </div>
+        <!-- Shop section -->
+        <div class="shop-section-3 shop">
+          <div class="box1 box">
+            <div class="box-heading">
+              <h1>Birthday store | Exiting gifts</h1>
+            </div>
+            <div class="box-pics">
+              <div class="box-pics row">
+                <div class="pic">
+                  <img src="images/box5-pic1.jpg" alt="" />
+                  <p>Gifts for men</p>
+                </div>
+                <div class="pic">
+                  <img src="images/box5-pic2.jpg" alt="" />
+                  <p>Gifts for women</p>
+                </div>
               </div>
-      </div>
-      <div class="box3 box">
-        <div class="box-heading">
-            <h1>Essentials for Expecting Mothers</h1>
-          </div>
-          <div class="box-pics">
-            <div class="box-pics row">
-              <div class="pic">
-                <img src="images/box7-pic1.jpg" alt="" />
-                <p>Pregnancy supplements</p>
-              </div>
-              <div class="pic">
-                <img src="images/box7-pic2.jpg" alt="" />
-                <p>maternity Sleep & Loungewear</p>
+              <div class="row">
+                <div class="pic">
+                  <img src="images/box5-pic3.jpg" alt="" />
+                  <p>Gifts for boys</p>
+                </div>
+                <div class="pic">
+                  <img src="images/box5-pic4.jpg" alt="" />
+                  <p>Gifts for girls</p>
+                </div>
               </div>
             </div>
-            <div class="row">
-              <div class="pic">
-                <img src="images/box7-pic3.jpg" alt="" />
-                <p>Maternity pillows</p>
+            <div class="box-link">
+              <p>See more</p>
+            </div>
+          </div>
+
+          <div class="box2 box">
+            <div class="box-heading">
+              <h1>Bestsellers | Footwear & more</h1>
+            </div>
+            <div class="box-pics">
+              <div class="box-pics row">
+                <div class="pic">
+                  <img src="images/box6-pic1.jpg" alt="" />
+                  <p>Sports shoes</p>
+                </div>
+                <div class="pic">
+                  <img src="images/box6-pic2.jpg" alt="" />
+                  <p>Jewellary & accessories</p>
+                </div>
               </div>
-              <div class="pic">
-                <img src="images/box7-pic4.jpg" alt="" />
-                <p>Maternity skin care</p>
+              <div class="row">
+                <div class="pic">
+                  <img src="images/box6-pic3.jpg" alt="" />
+                  <p>Watch & smart Wathes</p>
+                </div>
+                <div class="pic">
+                  <img src="images/box6-pic4.jpg" alt="" />
+                  <p>Bag , wallet & luggage</p>
+                </div>
+              </div>
+            </div>
+            <div class="box-link">
+              <p>Explore all</p>
+            </div>
+          </div>
+          <div class="box3 box">
+            <div class="box-heading">
+              <h1>Essentials for Expecting Mothers</h1>
+            </div>
+            <div class="box-pics">
+              <div class="box-pics row">
+                <div class="pic">
+                  <img src="images/box7-pic1.jpg" alt="" />
+                  <p>Pregnancy supplements</p>
+                </div>
+                <div class="pic">
+                  <img src="images/box7-pic2.jpg" alt="" />
+                  <p>maternity Sleep & Loungewear</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="pic">
+                  <img src="images/box7-pic3.jpg" alt="" />
+                  <p>Maternity pillows</p>
+                </div>
+                <div class="pic">
+                  <img src="images/box7-pic4.jpg" alt="" />
+                  <p>Maternity skin care</p>
+                </div>
+              </div>
+            </div>
+            <div class="box-link">
+              <p>See more</p>
+            </div>
+          </div>
+          <div class="box4 box">
+            <div class="box-heading">
+              <h1>Pocket-friendly fashion</h1>
+            </div>
+            <div class="box-pics">
+              <div class="box-pics row">
+                <div class="pic">
+                  <img src="images/box8-pic1.jpg" alt="" />
+                  <p>Clothing</p>
+                </div>
+                <div class="pic">
+                  <img src="images/box8-pic2.jpg" alt="" />
+                  <p>Backpacks</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="pic">
+                  <img src="images/box8-pic3.jpg" alt="" />
+                  <p>Footwear</p>
+                </div>
+                <div class="pic">
+                  <img src="images/box8-pic4.jpg" alt="" />
+                  <p>Veiw all</p>
+                </div>
+              </div>
+            </div>
+            <div class="box-link">
+              <p>See all offers</p>
+            </div>
+          </div>
+        </div>
+        <!-- product card section -->
+        <div class="Product-card-2">
+          <div class="card-heading">
+            <h2></h2>
+          </div>
+          <div class="products-2">
+            <div class="card-2">
+              <div class="card-pic-2">
+                <img
+                  src="https://m.media-amazon.com/images/I/617ri8lmBqL._AC_SY200_.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="card-2">
+              <div class="card-pic-2">
+                <img
+                  src="	https://m.media-amazon.com/images/I/51FcHzUU4TL._AC_SY200_.jpg
+          "
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="card-2">
+              <div class="card-pic-2">
+                <img
+                  src="https://m.media-amazon.com/images/I/31GijR0Od6L._AC_SY200_.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="card-2">
+              <div class="card-pic-2">
+                <img
+                  src="	https://m.media-amazon.com/images/I/61M+b2oj72L._AC_SY200_.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="card-2">
+              <div class="card-pic-2">
+                <img
+                  src="https://m.media-amazon.com/images/I/71rAdqb5pML._AC_SY200_.jpg
+            "
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="card-2">
+              <div class="card-pic-2">
+                <img
+                  src="https://m.media-amazon.com/images/I/51yPtQGUZAL._AC_SY200_.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="card-2">
+              <div class="card-pic-2">
+                <img
+                  src="https://m.media-amazon.com/images/I/51zp5M5B37L._AC_SY200_.jpg
+            "
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="card-2">
+              <div class="card-pic-2">
+                <img
+                  src="https://m.media-amazon.com/images/I/51THC+nmlRL._AC_SY200_.jpg"
+                  alt=""
+                />
               </div>
             </div>
           </div>
-              <div class="box-link">
-                  <p>See more</p>
-              </div>
-      </div>
-      <div class="box4 box">
-        <div class="box-heading">
-            <h1>Pocket-friendly fashion</h1>
+        </div>
+        <!-- footer -->
+        <footer>
+          <a href="#" class="footer-title"> Back to top </a>
+          <div class="footer-items">
+            <ul>
+              <h3>Get to Know Us</h3>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Press Release</a></li>
+              <li><a href="#">Amazon Science</a></li>
+            </ul>
+            <ul>
+              <h3>Connect with Us</h3>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Instagram</a></li>
+            </ul>
+            <ul>
+              <h3>Make Money with Us</h3>
+              <li><a href="#">Sell on Amazon</a></li>
+              <li><a href="#">Sell under Amazon Accelerator</a></li>
+              <li><a href="#">Protect and Build Your Brand</a></li>
+              <li><a href="#">Amazon Global Selling</a></li>
+              <li><a href="#">Become an Affiliate</a></li>
+              <li><a href="#">Fulfillment by Amazon</a></li>
+              <li><a href="#">Advertise Your Products</a></li>
+              <li><a href="#">Amazon Pay on Merchants</a></li>
+            </ul>
+            <ul>
+              <h3>Let Us Help You</h3>
+              <li><a href="#">COVID-19 and Amazon</a></li>
+              <li><a href="#">Your Account</a></li>
+              <li><a href="#">Return Centre</a></li>
+              <li><a href="#">100% Purchase Protection</a></li>
+              <li><a href="#">Amazon App Download</a></li>
+              <li><a href="#">Help</a></li>
+            </ul>
           </div>
-          <div class="box-pics">
-            <div class="box-pics row">
-              <div class="pic">
-                <img src="images/box8-pic1.jpg" alt="" />
-                <p>Clothing</p>
-              </div>
-              <div class="pic">
-                <img src="images/box8-pic2.jpg" alt="" />
-                <p>Backpacks</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="pic">
-                <img src="images/box8-pic3.jpg" alt="" />
-                <p>Footwear</p>
-              </div>
-              <div class="pic">
-                <img src="images/box8-pic4.jpg" alt="" />
-                <p>Veiw all</p>
-              </div>
-            </div>
-          </div>
-              <div class="box-link">
-                  <p>See all offers</p>
-              </div>
-      </div>
+        </footer>
+      </main>
     </div>
- 
-    <!-- product card section -->
-    <div class="Product-card">
-      <div class="card-heading"></div>
-      <div class="products">
-        <div class="card">
-          <div class="card-pic">
-            <img src="https://m.media-amazon.com/images/I/31gAA759UCL._AC_SY200_.jpg" alt="">
-          </div>
-          <div class="card-box">
-            <p id="box-text1">Up to 73% off</p>
-            <p id="box-text2">Deal of the Day</p>
-          </div>
-          <div class="card-text">
-            <p>Hard Water Filters and Bath accessori....</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-pic">
-          <img src="https://m.media-amazon.com/images/I/41TssgTTkwL._AC_SY200_.jpg" alt="">
-          </div>
-          <div class="card-box">
-            <p id="box-text1">Up to 73% off</p>
-            <p id="box-text2">Deal of the Day</p>
-          </div>
-          <div class="card-text">
-            <p>Hard Water Filters and Bath accessori....</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-pic">
-            <img src="https://m.media-amazon.com/images/I/51Q8ZoVG3oL._AC_SY200_.jpg" alt="">
-          </div>
-          <div class="card-box">
-            <p id="box-text1">Up to 73% off</p>
-            <p id="box-text2">Deal of the Day</p>
-          </div>
-          <div class="card-text">
-            <p>Hard Water Filters and Bath accessori....</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-pic">
-            <img src="https://m.media-amazon.com/images/I/81AHUh3eY4L._SY695__AC_SY200_.jpg" alt="">
-          </div>
-          <div class="card-box">
-            <p id="box-text1">Up to 73% off</p>
-            <p id="box-text2">Deal of the Day</p>
-          </div>
-          <div class="card-text">
-            <p>Hard Water Filters and Bath accessori....</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-pic">
-            <img src="https://m.media-amazon.com/images/I/31gAA759UCL._AC_SY200_.jpg" alt="">
-          </div>
-          <div class="card-box">
-            <p id="box-text1">Up to 73% off</p>
-            <p id="box-text2">Deal of the Day</p>
-          </div>
-          <div class="card-text">
-            <p>Hard Water Filters and Bath accessori....</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- footer -->
-    <footer>
-      <a href="#" class="footer-title">
-        Back to top
-      </a>
-      <div class="footer-items">
-        <ul>
-          <h3>Get to Know Us</h3>
-          <li><a href="#">About us</a></li>
-          <li><a href="#">Careers</a></li>
-          <li><a href="#">Press Release</a></li>
-          <li><a href="#">Amazon Science</a></li>
-        </ul>
-        <ul>
-          <h3>Connect with Us</h3>
-          <li><a href="#">Facebook</a></li>
-          <li><a href="#">Twitter</a></li>
-          <li><a href="#">Instagram</a></li>
-        </ul>
-        <ul>
-          <h3>Make Money with Us</h3>
-          <li><a href="#">Sell on Amazon</a></li>
-          <li><a href="#">Sell under Amazon Accelerator</a></li>
-          <li><a href="#">Protect and Build Your Brand</a></li>
-          <li><a href="#">Amazon Global Selling</a></li>
-          <li><a href="#">Become an Affiliate</a></li>
-          <li><a href="#">Fulfillment by Amazon</a></li>
-          <li><a href="#">Advertise Your Products</a></li>
-          <li><a href="#">Amazon Pay on Merchants</a></li>
-        </ul>
-        <ul>
-          <h3>Let Us Help You</h3>
-          <li><a href="#">COVID-19 and Amazon</a></li>
-          <li><a href="#">Your Account</a></li>
-          <li><a href="#">Return Centre</a></li>
-          <li><a href="#">100% Purchase Protection</a></li>
-          <li><a href="#">Amazon App Download</a></li>
-          <li><a href="#">Help</a></li>
-        </ul>
-      </div>
-    </footer>
-  </main>
-</div>
-<script src="script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
