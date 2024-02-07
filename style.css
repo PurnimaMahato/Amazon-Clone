@@ -12,6 +12,7 @@
     background: linear-gradient(90deg, rgba(1,38,57,1) 0%, rgba(13,65,86,1) 0%, rgba(4,74,98,1) 0%, rgba(1,33,56,1) 0%); */
     background-color: #e3e6e6;
     background-image: url();
+    overflow: hidden;
 }
 
 .navbar {
@@ -61,7 +62,6 @@
     color: #D6d6d6;
     justify-content: center;
     align-items: center;
-
 }
 
 .add-icon {
@@ -129,7 +129,7 @@
     width: 100%;
     height: 38px;
     background: #ffffff;
-    font-size: 16px;
+    font-size: 1rem;
     border: none;
 }
 
@@ -147,7 +147,6 @@
 .search-icon:hover {
     cursor: pointer;
     background: #f6a439;
-
 }
 
 .nav-lang {
@@ -158,26 +157,22 @@
     margin-left: 1px;
     display: flex;
     align-items: center;
-
 }
 
 .lan-icon {
     width: 24px;
     height: 18px;
     margin: 0px 2px 1px 0px;
-
 }
 
 .lang {
     width: 18px;
     height: 15px;
     font-size: 14px;
-
 }
 
 .select-icon {
     margin-left: 6px;
-
 }
 
 .nav-acc {
@@ -185,8 +180,6 @@
     height: 47px;
     padding: 0px 9px 10px 9px;
     margin-left: 2px;
-
-
 }
 
 .acc-text1,
@@ -200,8 +193,6 @@
 .acc-text2 {
     font-size: 1rem;
     width: 100%;
-
-
 }
 
 .acc {
@@ -276,7 +267,7 @@
 } */
 .hero-section {
     position: relative;
-    height: 300px;
+    height: fit-content;
     overflow: hidden;
 }
 
@@ -346,8 +337,9 @@
 
 }
 
-.box-heading h1 {
-    font-size: 1.8rem;
+.box-heading p {
+    font-size: 1.6rem;
+    font-weight: bold;
 }
 
 .row {
@@ -392,7 +384,7 @@
 
 .Product-card {
 
-    height: 330px;
+    height: 350px;
     background-color: #ffffff;
     /* top: -200px; */
 
@@ -464,12 +456,12 @@
 }
 
 .card-text {
-    height: 20px;
+    height: fit-content;
     width: fit-content;
     font-size: 13px;
 }
 
-.card-text h1 {
+.card-text p {
     color: #0f1111;
     margin: 10px;
 }
@@ -478,13 +470,14 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 30px;
-
+    overflow: hidden;
 }
 
 .products-2 {
     display: flex;
 
 }
+
 .card-heading {
     height: 35px;
     width: 100%;
@@ -557,4 +550,429 @@
 
 footer {
     margin-top: 30px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .panel-ops p {
+        font-size: 0.7rem;
+    }
+
+    .panel-shop p {
+        font-size: 0.8rem;
+    }
+
+    .panel-bar {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .panel-bar p {
+        font-size: 0.7rem;
+    }
+
+    .panel-bar i {
+        font-size: 0.7rem;
+    }
+
+    .nav-add {
+        width: 154px;
+        height: 45px;
+        margin: 5px 2px 5px 0px;
+        padding: 1px 9px;
+    }
+
+    .nav-add p {
+        font-size: 0.8rem;
+    }
+
+    .nav-lang p {
+        font-size: 0.8rem;
+    }
+
+    .nav-lang {
+        font-size: 0.8rem;
+    }
+
+    .acc-text2 {
+        font-size: 0.8rem;
+    }
+
+    .ret-text2 {
+        font-size: 0.8rem;
+    }
+
+    .ret-text1 {
+        font-size: 0.8rem;
+    }
+
+    .cart-icon {
+        font-size: 0.6rem;
+    }
+
+    .cart-text {
+        font-size: 0.8rem;
+    }
+
+    .box-heading p {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .panel-ops p {
+        font-size: 0.6rem;
+    }
+
+    .panel-shop p {
+        font-size: 0.6rem;
+    }
+
+    .panel-bar {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .panel-bar p {
+        font-size: 0.6rem;
+    }
+
+    .panel-bar i {
+        font-size: 0.6rem;
+    }
+
+    .nav-add {
+        width: 154px;
+        height: 45px;
+        margin: 5px 2px 5px 0px;
+        padding: 1px 9px;
+    }
+
+    .nav-add p {
+        font-size: 0.6rem;
+    }
+
+    .nav-lang p {
+        font-size: 0.6rem;
+    }
+
+    .nav-lang {
+        font-size: 0.6rem;
+    }
+
+    .acc-text2 {
+        font-size: 0.6rem;
+    }
+
+    .ret-text2 {
+        font-size: 0.6rem;
+    }
+
+    .ret-text1 {
+        font-size: 0.6rem;
+    }
+
+    .cart-icon {
+        font-size: 0.4rem;
+    }
+
+    .cart-text {
+        font-size: 0.6rem;
+    }
+
+    .box-heading p {
+        font-size: 1.2rem;
+    }
+
+    .box-heading {
+        padding: 10px 20px;
+        height: 50px;
+
+    }
+
+    .pic {
+        width: 40%;
+        height: 125px;
+        cursor: pointer;
+    }
+
+    .pic img {
+        width: 90%;
+        height: 70px;
+    }
+
+    .pic p {
+        color: rgb(71, 71, 71);
+        font-size: 13px;
+    }
+
+    .box {
+        border: 1px;
+        width: 23%;
+        height: 350px;
+        background-color: #ffffff;
+        /* border-radius: 10px; */
+        margin-top: 30px;
+        transition: ease;
+        transform: scale(1.0);
+
+
+    }
+}
+
+@media only screen and (max-width: 785px) {
+    .navbar {
+        height: fit-content;
+    }
+
+    .panel-ops p:nth-last-child(-n+2) {
+        display: none;
+    }
+
+    .panel-ops p {
+        font-size: 0.5rem;
+    }
+
+    .panel-shop p {
+        font-size: 0.6rem;
+    }
+
+    .panel-bar {
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*  */
+
+    .pic {
+        width: 40%;
+        height: 90px;
+        cursor: pointer;
+    }
+
+    .pic img {
+        width: 90%;
+        height: 60px;
+    }
+
+    .pic p {
+        color: rgb(71, 71, 71);
+        font-size: 0.5rem;
+    }
+
+    .box {
+        border: 1px;
+        width: 23%;
+        height: 280px;
+        background-color: #ffffff;
+        /* border-radius: 10px; */
+        margin-top: 30px;
+        transition: ease;
+        transform: scale(1.0);
+
+
+    }
+
+    .box-link {
+        font-size: 0.7rem;
+    }
+
+    .card {
+        overflow: hidden;
+    }
+
+    .card-pic {
+        height: 40%;
+    }
+
+    .card-pic img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .Product-card {
+        height: 250px;
+        margin: 20px px 0px 15px;
+        overflow: hidden;
+    }
+
+    #box-text1,
+    #box-text2 {
+        font-size: 0.5rem;
+    }
+
+    .card-text p {
+        font-size: 0.7rem;
+    }
+
+    .Product-card-2 {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .card-2 {
+        height: 60%;
+        width: 15%;
+    }
+
+    /* .card-pic-2 img{
+    width: 150px;
+   
+} */
+
+}
+
+@media only screen and (max-width: 550px) {
+    .navbar {
+        height: fit-content;
+    }
+
+    .panel-ops p:nth-last-child(-n+2) {
+        display: none;
+    }
+
+    .panel-ops p {
+        font-size: 0.35rem;
+    }
+
+    .panel-shop p {
+        font-size: 0.5rem;
+    }
+
+    .panel-bar {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .panel-bar p {
+        font-size: 0.5rem;
+    }
+
+    .panel-bar i {
+        font-size: 0.5rem;
+    }
+
+    .nav-add {
+        width: 145px;
+        height: 40px;
+        margin: 5px 2px 5px 0px;
+        padding: 1px 9px;
+    }
+
+    .nav-add p {
+        font-size: 0.5rem;
+    }
+
+    .nav-lang p {
+        font-size: 0.5rem;
+    }
+
+    .nav-lang {
+        font-size: 0.5rem;
+    }
+
+    .search-input {
+        font-size: 0.7rem;
+    }
+
+    .acc-text1 {
+        font-size: 0.6rem;
+    }
+
+    .acc-text2 {
+        font-size: 0.5rem;
+    }
+
+    .ret-text2 {
+        font-size: 0.5rem;
+    }
+
+    .ret-text1 {
+        font-size: 0.5rem;
+    }
+
+    .cart-icon {
+        font-size: 0.5rem;
+    }
+
+    .cart-text {
+        font-size: 0.5rem;
+    }
+
+    .box-heading p {
+        font-size: 0.85rem;
+    }
+
+    .box-heading {
+        padding: 10px 20px;
+        height: 45px;
+
+    }
+
+    .pic {
+        width: 40%;
+        height: 85px;
+        cursor: pointer;
+    }
+
+    .pic img {
+        width: 90%;
+        height: 55px;
+    }
+
+    .pic p {
+        color: rgb(71, 71, 71);
+        font-size: 0.5rem;
+    }
+
+    .box {
+        border: 1px;
+        width: 23%;
+        height: 280px;
+        background-color: #ffffff;
+        /* border-radius: 10px; */
+        margin-top: 30px;
+        transition: ease;
+        transform: scale(1.0);
+
+
+    }
+
+    .box-link {
+        font-size: 0.6rem;
+    }
+
+    .card {
+        overflow: hidden;
+    }
+
+    .card-pic {
+        height: 40%;
+    }
+
+    .card-pic img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .Product-card {
+        height: 200px;
+        margin: 20px px 0px 15px;
+        overflow: hidden;
+    }
+
+    #box-text1,
+    #box-text2 {
+        font-size: 0.45rem;
+    }
+
+    .card-text p {
+        font-size: 0.6rem;
+    }
+
+    .Product-card-2 {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
 }
